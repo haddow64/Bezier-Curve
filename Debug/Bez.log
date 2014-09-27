@@ -1,0 +1,35 @@
+﻿  CP.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\gl\glaux.h(17): warning C4068: unknown pragma
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\gl\glaux.h(374): warning C4068: unknown pragma
+e:\users\graeme\uni\4th year\advanced game technologies\bezier curve coursework\solution\cp.cpp(43): warning C4305: '+=' : truncation from 'double' to 'float'
+  Main.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\gl\glaux.h(17): warning C4068: unknown pragma
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\gl\glaux.h(374): warning C4068: unknown pragma
+e:\users\graeme\uni\4th year\advanced game technologies\bezier curve coursework\solution\main.cpp(70): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+e:\users\graeme\uni\4th year\advanced game technologies\bezier curve coursework\solution\main.cpp(72): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+e:\users\graeme\uni\4th year\advanced game technologies\bezier curve coursework\solution\main.cpp(74): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+e:\users\graeme\uni\4th year\advanced game technologies\bezier curve coursework\solution\main.cpp(76): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+  Init.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\gl\glaux.h(17): warning C4068: unknown pragma
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\gl\glaux.h(374): warning C4068: unknown pragma
+e:\users\graeme\uni\4th year\advanced game technologies\bezier curve coursework\solution\init.cpp(112): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+  Curve.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\gl\glaux.h(17): warning C4068: unknown pragma
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\gl\glaux.h(374): warning C4068: unknown pragma
+e:\users\graeme\uni\4th year\advanced game technologies\bezier curve coursework\solution\curve.cpp(85): warning C4305: '+=' : truncation from 'double' to 'float'
+e:\users\graeme\uni\4th year\advanced game technologies\bezier curve coursework\solution\curve.cpp(144): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+e:\users\graeme\uni\4th year\advanced game technologies\bezier curve coursework\solution\curve.cpp(145): warning C4305: '=' : truncation from 'double' to 'float'
+e:\users\graeme\uni\4th year\advanced game technologies\bezier curve coursework\solution\curve.cpp(146): warning C4305: '=' : truncation from 'double' to 'float'
+  Camera.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\gl\glaux.h(17): warning C4068: unknown pragma
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\gl\glaux.h(374): warning C4068: unknown pragma
+e:\users\graeme\uni\4th year\advanced game technologies\bezier curve coursework\solution\camera.cpp(20): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+  Generating Code...
+  LINK : E:\Users\Graeme\Uni\4th year\Advanced Game Technologies\Bezier Curve Coursework\Solution\Debug\Bez.exe not found or not built by the last incremental link; performing full link
+  Bez.vcxproj -> E:\Users\Graeme\Uni\4th year\Advanced Game Technologies\Bezier Curve Coursework\Solution\Debug\Bez.exe

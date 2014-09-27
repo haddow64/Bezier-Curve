@@ -1,0 +1,132 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "Header Files\resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 190, 110
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Control Points"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,35,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,52,50,14
+    LTEXT           "CP 5 can't be changed to maintain C1 continuity",IDC_STATIC,6,6,182,11
+    EDITTEXT        IDC_EDIT1,65,30,50,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT2,65,45,50,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT3,65,60,50,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT4,65,76,50,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "CP 1 to 7:",IDC_STATIC,22,31,38,9
+    LTEXT           "X CoOrd:",IDC_STATIC,21,46,38,9
+    LTEXT           "Y CoOrd:",IDC_STATIC,21,62,38,9
+    LTEXT           "Z CoOrd:",IDC_STATIC,21,77,38,9
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "Exit",                        ID_MENU_QUIT
+    END
+    POPUP "Control Points"
+    BEGIN
+        MENUITEM "Edit Control Points",         ID_EDIT_POINTS
+        MENUITEM "Reset Control Points",        ID_EDIT_RESETPOINTS
+    END
+    POPUP "Camera"
+    BEGIN
+        MENUITEM "God",                         ID_VIEW_FREEROAMING
+        MENUITEM "Snap to curve",               ID_VIEW_FOLLOWCURVE
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "About",                       ID_HELP_ABOUT
+    END
+END
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
